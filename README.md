@@ -1,19 +1,11 @@
-#Tornado种子项目
+﻿# Go学习
 
-# tornado-restful-seed-in-lonwy
-Tornado种子项目，restful接口，分布式架构。
 
-## 所用组件：
-mysql   
-mongodb   
-memcached   
+先查看远程分支
+`git branch -ｒ`  
 
-## 前端：
-angularjs   
-
-# tornado-seed-in-manyth
-Tornado 数据库Postgresql 缓存Redis
-
-## 所用组件：
-psycopg2   
-redis   
+使用下面两条命令来删除远程分支
+```shell
+git branch -r -d origin/branch-name  
+git push origin :branch-name
+```  
